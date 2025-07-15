@@ -19,7 +19,8 @@ public class PlayerCharacter : BaseCharacter
     {
         HandleMovement();
         HandleCooldown();
-        HandleAttack();
+        //TODO: bugfix
+        //HandleAttack();
 
         // --- YENİ EKLENEN SATIR ---
         HandleStatSpending();
